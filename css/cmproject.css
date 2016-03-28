@@ -1,0 +1,324 @@
+* {
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.clearfix:before, .clearfix:after {
+  content:"";
+  display:table;
+}
+
+.clearfix:after{
+  clear:both;
+}
+
+body {
+	background-color: #e7f0f0;
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	letter-spacing: 0.01em;
+	font-size: 20px;
+	color: #595E5E;
+}
+
+#page-wrapper {
+	z-index: 4;
+	position: relative;
+	padding: 0.8em;
+	transition: transform 0.5s ease;
+	background-color: #e7f0f0;
+}
+
+h1 {
+	display: inline-block;
+	font-size: 0.79em;
+}
+
+h2 {
+	font-family: 'Halant', serif;
+	font-weight: 300;
+	font-size: 2.2em;
+	line-height: 1.2em;
+}
+
+h3 {
+	font-size: 1em;
+	padding-top: .6em;
+	padding-bottom: .6em;
+
+}
+
+h4 {
+	display: inline-block;
+	font-size: 0.75em;
+}
+
+p {
+	font-family: 'Halant', serif;
+	font-size: .8em;
+	padding-top: 0.7em;
+}
+
+.description {
+	max-width: 60%;
+	margin: auto;
+	text-align: center;
+	padding: 2em;
+}
+
+.job {
+	text-align: left;
+	padding-bottom: 0em;
+}
+
+.description.job > h3 {
+	line-height: 1.3em;
+}
+
+.description.job > h4 {
+	font-size: 0.6em;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+}
+
+section {
+	margin-bottom: 1.5em;
+	max-width: 1100px;
+	margin: auto;
+}
+
+header {
+	display: block;
+}
+.name {
+	z-index: 10;
+	position: fixed;
+	left: 2em;
+	top: 2em;
+	font-size: 0.75em;
+}
+
+#burger-el {
+	z-index: 8;
+	position: fixed;
+	right: 2em;
+	top: 2em;
+	font-size: 0.75em;
+}
+
+#burger-icon {
+	width: 1.3em;
+}
+
+/*#burger-el:hover {
+	font-size: 1em;
+	transition: font-size 0.5s ease;
+}*/
+
+nav {
+	z-index: 0;
+	width: 300px;
+	height: 100vh;
+	background-color: #e7f0f0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	padding: 1.5em 1.5em 1.5em 1.5em;
+	transition: background-color 0.5s ease;
+}
+
+nav a, .name {
+	font-size: 0.75em;
+	text-decoration: none;
+	padding: 0 0 0.3em 0;
+	border-bottom: 1px solid #595E5E;
+	color: #595E5E;
+}
+
+nav a:hover, header a:hover {
+	color: #a2b4b4;
+	border-bottom: 0px;
+	transition: color 0.2s ease;
+}
+
+.nav-color-change {
+	background-color: #ffffff;
+}
+
+ul {
+	list-style: none;
+	padding: none;
+	line-height: 1.7em;
+}
+
+.contact {
+	padding-top: 3em;
+}
+
+.shift {
+	transform: translate(-300px);
+}
+
+footer li {
+	display: inline;
+	padding: 0.2em;
+}
+
+#active-project-el {
+	z-index: 6;
+	width: 500px;
+	position: fixed;
+	margin: auto;
+/*	left: 1.5em;*/
+	text-align: center;
+}
+
+.hello {
+	padding-bottom: 20px;
+}
+
+.description a {
+	text-decoration: none;
+	color: #595E5E;
+	border-bottom: 1px solid #595E5E;
+}
+
+.description a:hover {
+	text-decoration: none;
+	color: #80b0ab;
+	border-bottom: none;
+}
+
+/*.button {
+	max-width: 300px;
+	margin: auto;
+	background-color: #c5d7d5;
+	border-radius: 5px;
+	border-bottom: 3px solid #80b0ab;
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+}
+
+.button a {
+	text-decoration: none;
+	color: #595E5E;
+}*/
+
+/*------SLIDESHOWS---*/
+
+#clarksslideshow { 
+    position: relative; 
+    max-width: 1100px; 
+}
+
+#clarksslideshow:before { 
+	content: "";
+	display: block;
+	padding-top: 64%;
+}
+
+#clarksslideshow > div { 
+    position: absolute; 
+    top: 0;
+    left: 0;
+}
+
+/*---------*/
+
+#alamyslideshow { 
+    position: relative; 
+    max-width: 1100px; 
+}
+
+#alamyslideshow:before {
+	content: "";
+	display: block;
+	padding-top: 64.09%;
+}
+
+#alamyslideshow > div { 
+    position: absolute; 
+    top: 0;
+    left: 0;
+}
+
+/*---------*/
+
+#cockpitslideshow { 
+    position: relative; 
+    max-width: 1100px; 
+}
+
+#cockpitslideshow:before {
+	content: "";
+	display: block;
+	padding-top: 64%;
+}
+
+#cockpitslideshow > div { 
+    position: absolute; 
+    top: 0;
+    left: 0;
+}
+
+/*---------*/
+
+#cockpit2slideshow { 
+    position: relative; 
+    max-width: 1100px;
+}
+
+#cockpit2slideshow:before {
+	content: "";
+	display: block;
+	padding-top: 64%;
+}
+
+#cockpit2slideshow > div { 
+    position: absolute; 
+    top: 0;
+    left: 0;
+}
+
+/*------------------------------------*/
+
+.wrapper {
+	z-index: 5;
+	position: relative;
+	margin: 4%;
+}
+
+img {
+	width: 100%;
+}
+
+.left-col {
+	width: 50%;
+	float: left;
+	padding-right: 0.2em;
+}
+
+.right-col {
+	max-width: 50%;
+	float: right;
+	padding-left: 0.2em;
+}
+
+/*------------------------------------*/
+
+
+@media (max-width: 700px) {
+  body {
+  	font-size: 18px;
+  }
+
+  .description {
+  	max-width: 100%;
+/*  	margin-left: 0%;*/
+  }
+}
