@@ -194,6 +194,12 @@ footer li {
 	border-bottom: none;
 }
 
+.description p a {
+	text-decoration: underline;
+	color: #000000;
+	border-bottom: none;
+}
+
 /*.button {
 	max-width: 300px;
 	margin: auto;
